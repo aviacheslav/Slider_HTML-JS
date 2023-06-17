@@ -1,0 +1,21 @@
+About react project:
+Ut work, S'not node.js et npm installer
+Proj co std libs ha size 291 MB!
+D all are dnldd ab Inet, so aut keep it at Github, so Node Models folder s' added to .gitignore file
+Ma ja af git clone cmd s'exe'd, proj (ac Node Models folder) wi da am didk, ma ne work'tl
+Ut S work, s'not dnld ce libs. Utce utf npm i cmd. It dnld'tl all not'd libs, et Node Models folder wi da.
+Afce utf npm run start cmd ut run l'proj, wait aam S doe work.
+Srv run'tl in dflt browser, address wi localhost 3000.
+S'best in Visual studio code. Utce utf Open folder cmd, open folder of proj, in ic s' src folder, et run VSCode's terminal
+Ut stop l'proj et exgo l'proj et recur ad asal filesys in console, press ctrl-C
+Et:
+I copy'te l'proj ad aal disk et folder, all gut, ce 'port' prg
+Ut abdo l' react proj, S'not dnld ab Inet l'react proj tmplt. Utce utf npx create-react-app my-app cmd.
+Hin my-app s'proj name, S may b any, et may ha -, ma ne may ha Capital letters.
+Mab S'not dnld spec suppl libs. Utce utf cmd npm i lodash. Ce may be ne nur lodash, ma any atal available lib.
+Ut install nvm installer (ic also can help install node.js):
+Uz windows: https:github.com/coreybutler/nvm-windows/releases
+uz linux/macOS: https:github.com/nvm-sh/nvm#installing-and-updting
+Uz windows at tic link at Github es files, inco D s' nvm-setup.zip. Open, run l'exe, ic s'in. 
+Path to install by dflt: C:\Users\user\AppData\Roaming\nvm
+
