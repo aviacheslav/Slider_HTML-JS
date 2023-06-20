@@ -6,6 +6,14 @@ function App() {
   return <Slider>
     
   </Slider>
+  /*return <MessageDashboard>
+
+
+  </MessageDashboard>*/
+   /*return <StopWatch>
+
+
+  </StopWatch> */
     
 }
 
