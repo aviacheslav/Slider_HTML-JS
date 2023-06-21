@@ -95,37 +95,36 @@ class Slider extends React.Component {
     render() {
         const {activeN, quantity}=this.state;
         return (
-        
         <article>
-        <div>
-            <h1>Enjoy our Universe</h1>
-            <input type="checkbox" label="AutoScroll mode" onClick={this.timerSwitcherClickHandler} checked></input> 
-             <button onClick={this.setIntervalClickHandler} id="btnSetTime">
+            <div>
+                <h1>Enjoy our Universe</h1>
+                <input type="checkbox" value="AutoScroll mode" onClick={this.timerSwitcherClickHandler } checked={this.state.autoScrollOn}></input> 
+                <button onClick={this.setIntervalClickHandler} id="btnSetTime">
                     Set Interval
-            </button> 
-        </div>    
-        <main>
-            <button onClick={this.leftClickHandler} class="Button leftButton">
-			    {'<'}
-		    </button>
-		    <button onClick={this.rightClickHandler} class="Button rightButton">
-                {'>'}
-		    </button> 
-            <section>
-			    <h2>
-				    {data[activeN-1].caption}
-			    </h2>
-			    <div>
-                    <img src={data[activeN-1].imgSrc} alt={data[activeN-1].imgAlt}/> 
-				</div>
-			    <p>
-				    {data[activeN-1].text}
-			    </p>
-		    </section>
-		</main>
-    </article>
+                </button> 
+            </div>    
+            <main>
+                <button onClick={this.leftClickHandler} class="Button leftButton">
+			        {'<'}
+		        </button>
+		        <button onClick={this.rightClickHandler} class="Button rightButton">
+                    {'>'}
+		        </button> 
+                <section>
+			        <h2>
+				        {data[activeN-1].caption}
+			        </h2>
+			        <div>
+                        <img src={data[activeN-1].imgSrc} alt={data[activeN-1].imgAlt}/> 
+				    </div>
+			        <p>
+				        {data[activeN-1].text}
+			        </p>
+		        </section>
+		    </main>
+        </article>//);
         );
-    }
-} 
+    }//render
+} //classcomponent
 
 export default Slider;

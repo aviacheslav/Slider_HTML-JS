@@ -16,7 +16,7 @@ function StopWatch (props)  {
     }
 
     const newIntervalId = setInterval(() => {
-      setCurrentTime(currentTime + 1);
+      setCurrentTime(oldTime) =>oldTime + 1);
     }, 1000);
   };
 
